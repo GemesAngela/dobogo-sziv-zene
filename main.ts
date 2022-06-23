@@ -66,7 +66,7 @@ input.onButtonPressed(Button.AB, function () {
     music.playTone(523, music.beat(BeatFraction.Whole) / 3)
     music.playTone(494, music.beat(BeatFraction.Whole) / 3)
     music.playTone(523, music.beat(BeatFraction.Whole) / 3)
-    music.playTone(440, music.beat(BeatFraction.Whole) / 3)
+    music.playTone(440, music.beat(BeatFraction.Whole) * 3)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showString("BYE")
